@@ -24,8 +24,17 @@ Analyzes the Congressional Twitter Network (475 Congress members, 13,289 directe
 
 ---
 
+### [PCA, Dimensionality Reduction & Clustering](./03-pca-dimensionality-reduction/)
+**Topics:** PCA, Dimensionality Reduction, K-Means, DBSCAN, Variance Analysis
+
+Applies PCA and clustering to synthetic and real-world data across five sections. Manually interprets covariance, decorrelation, and variance explained before using sklearn. Shows that 7 of 13 Boston Housing features capture 90% of variance, compares k-means vs DBSCAN cluster geometry on PCA-projected data, and visualizes DBSCAN geographic clusters on the California Housing dataset.
+
+[View Project →](./03-pca-dimensionality-reduction/README.md)
+
+---
+
 ## Tech Stack
 
 - Python 3, Jupyter Notebooks
 - pandas, NumPy, Matplotlib
-- NetworkX
+- NetworkX, scikit-learn
