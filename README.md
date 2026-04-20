@@ -33,6 +33,15 @@ Applies PCA and clustering to synthetic and real-world data across five sections
 
 ---
 
+### [Customer Segmentation with PCA & Clustering](./04-customer-segmentation-clustering/)
+**Topics:** K-Means, DBSCAN, PCA, Dimensionality Reduction, Unsupervised Learning, Customer Analytics
+
+Applies PCA and from-scratch K-Means and DBSCAN implementations to the UCI Wholesale Customers dataset (440 clients, 6 spending categories). Reduces six dimensions to four via PCA (~94% variance retained), compares clustering performance on original vs. reduced data using the elbow method and a DBSCAN parameter grid, and evaluates results against ground-truth channel labels. K-Means at k=3 outperforms DBSCAN across all parameter settings on this dataset.
+
+[View Project →](./04-customer-segmentation-clustering/README.md)
+
+---
+
 ## Tech Stack
 
 - Python 3, Jupyter Notebooks
